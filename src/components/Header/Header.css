@@ -1,0 +1,10 @@
+div.header img {
+    position: static;
+    float: left;
+}
+.h {
+    font-size: 20px;
+    justify-content: left;
+    text-align: left;
+    color: rgb(98, 150, 218);
+}

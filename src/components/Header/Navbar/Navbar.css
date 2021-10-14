@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+.mainmenu-area {
+    background: none repeat scroll 0 0 #fbfbfb;
+    /* background: none repeat scroll 0 0 #e49f9f; */
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    height: 60px;
+    z-index: 10;
+}
+
+.mainmenu-area ul.navbar-nav li a {
+    color: #6e6a6a;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+} */
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-nav {
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-between;
+    /* display: block; */
+}
+
+.navbar-list {
+    margin-top: 22px;
+}
+
+.navbar-item {
+    display: flex;
+    font-size: 18px;
+    padding-left: 0;
+    align-items: center;
+    background-color: rgb(241, 239, 239);
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+li {
+    list-style-type: "";
+    text-align: -webkit-match-parent;
+}
+
+.mainmenu-area ul.navbar-nav li:hover a,
+.mainmenu-area ul.navbar-nav li.active a {
+    background: rgb(99, 160, 218);
+    color: #fff;
+}
+
+.mainmenu-area .nav > li > a:focus {
+    color: #fff;
+}
+
+.shopping-item {
+    border: 1px solid #ddd;
+    float: right;
+    font-size: 18px;
+    margin-top: -12px;
+    padding: 10px;
+    /* margin-left: 200px; */
+    position: relative;
+}
+.shopping-item a {
+    color: #666;
+    text-decoration: none;
+}
+.cart-amount {
+    color: #5a88ca;
+    font-weight: 700;
+}
+
+.product-count {
+    background: none repeat scroll 0 0 red;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    height: 20px;
+    padding-top: 2px;
+    position: absolute;
+    right: -10px;
+    text-align: center;
+    top: -10px;
+    width: 20px;
+}
+/*
+ .shopping-item i.fa {
+    margin-left: 15px;
+} 
+.shopping-item i {
+    margin-left: 15px;
+}
+
+.shopping-item:hover {
+    background: none repeat scroll 0 0 #5a88ca;
+    border-color: #5a88ca;
+}
+.shopping-item:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+.shopping-item:hover .cart-amount {
+    color: #fff;
+}
+ .shopping-item:hover .product-count {
+    background: none repeat scroll 0 0 #000;
+} */
