@@ -11,10 +11,10 @@ const Navbar = () => {
           <Link to="/home">Trang chủ</Link>
         </li>
         <li className="active">
-          <Link to="/home">Sách</Link>
+          <Link to="/book">Sách</Link>
         </li>
         <li className="active">
-          <Link to="/home">Mượn sách</Link>
+          <Link to="/">Mượn sách</Link>
         </li>
         <li className="active">
           <Link to="/logout">tài khoản</Link>

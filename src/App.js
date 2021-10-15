@@ -6,7 +6,7 @@ import Home from "./components/Home/Home.js";
 import Logout from "./components/Logout/Logout.js";
 import Menu from "./components/Header/Menu/Menu";
 import Book from "./components/Book/Book";
-
+import Details from "./components/Details/Details"
 import Header from "./components/Header/Header";
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
             <Route path="/home" exact component={Home} />
             <Route path="/" exact component={Login} />
             <Route path="/logout" exact component={Logout} />
-            <Route path="/details/:id" exact component={Book} />
+            <Route path="/book" exact component={Book} />
+            <Route path="/details/:id" exact component={Details} />
           </Switch>
         </div>
         <Footer />
